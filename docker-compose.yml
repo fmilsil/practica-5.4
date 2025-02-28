@@ -1,0 +1,7 @@
+services:
+  web:
+    image: fmilsil/2048
+    container_name: ipprueba
+    ports:
+      - 80:80
+    restart: always
